@@ -1,6 +1,6 @@
-{
-    "name": "a",
-    "r": [
+[{
+    "list": "r",
+    "words": [
         {
             "word": "hablar",
             "meaning": "to speak"
@@ -38,7 +38,8 @@
         }
 
     ],
-    "i": [
+    "list": "i",
+    "words": [
         {
             "word": "ir",
             "meaning": "to go",
@@ -76,5 +77,5 @@
         }
     ]
 
-}
+}]
 
