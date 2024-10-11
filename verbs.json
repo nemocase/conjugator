@@ -36,8 +36,46 @@
             {
                 "word": "escribir",
                 "meaning": "to write"
+            }]
+    },
+    {
+        "list": "i",
+        "words": [
+            {
+                "word": "ir",
+                "meaning": "to go",
+                "conjugations": [
+                    "voy", "vas", "va", "vamos", "vais", "van"
+                ]
+            },
+            {
+                "word": "ser",
+                "meaning": "to be",
+                "conjugations":[
+                    "soy", "eres", "es", "somos", "sois", "son"
+                ]
+            },
+            {
+                "word": "estar",
+                "meaning": "to be",
+                "conjugations":[
+                    "estoy", "estás", "está", "estamos", "estáis", "están"
+                ]
+            },
+            {
+                "word": "tener",
+                "meaning": "to have",
+                "conjugations":[
+                    "tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"
+                ]
+            },
+            {
+                "word": "dar",
+                "meaning": "to give",
+                "conjugations":[
+                    "doy", "das", "da", "damos", "dais", "dan"
+                ]
             }
-        ],
+        ]
     }
-}]
-
+]
