@@ -1,38 +1,47 @@
 [
     {
         "word": "hablar",
+        "infinitive": "hablar",
         "meaning": "to speak"
     },
     {
         "word": "vivir",
+        "infinitive:" "vivir",
         "meaning": "to live"
     },
     {
         "word": "comer",
+        "infinitive:" "comer",
         "meaning": "to eat"
     },
     {
         "word": "mirar",
+        "infinitive:" "mirar",
         "meaning": "to look or view"
     },
     {
         "word": "beber",
+        "infinitive:" "beber",
         "meaning": "to drink"
     },
     {
         "word": "abrir",
+        "infinitive:" "abrir",
         "meaning": "to open"
     },
     {
         "word": "correr",
+        "infinitive:" "correr",
         "meaning": "to run"
     },
     {
         "word": "caminar",
+        "infinitive:" "caminar",
         "meaning": "to walk"
     },
     {
         "word": "escribir",
+        "infinitive:" "escribir",
         "meaning": "to write"
     }
 ]
