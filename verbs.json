@@ -1,81 +1,47 @@
 [
     {
-        "list": "r",
-        "words": [
-            {
-                "word": "hablar",
-                "meaning": "to speak"
-            },
-            {
-                "word": "vivir",
-                "meaning": "to live"
-            },
-            {
-                "word": "comer",
-                "meaning": "to eat"
-            },
-            {
-                "word": "mirar",
-                "meaning": "to look or view"
-            },
-            {
-                "word": "beber",
-                "meaning": "to drink"
-            },
-            {
-                "word": "abrir",
-                "meaning": "to open"
-            },
-            {
-                "word": "correr",
-                "meaning": "to run"
-            },{
-                "word": "caminar",
-                "meaning": "to walk"
-            },
-            {
-                "word": "escribir",
-                "meaning": "to write"
-            }]
+        "word": "hablar",
+        "meaning": "to speak",
+        "regular": 0
     },
     {
-        "list": "i",
-        "words": [
-            {
-                "word": "ir",
-                "meaning": "to go",
-                "conjugations": [
-                    "voy", "vas", "va", "vamos", "vais", "van"
-                ]
-            },
-            {
-                "word": "ser",
-                "meaning": "to be",
-                "conjugations":[
-                    "soy", "eres", "es", "somos", "sois", "son"
-                ]
-            },
-            {
-                "word": "estar",
-                "meaning": "to be",
-                "conjugations":[
-                    "estoy", "estás", "está", "estamos", "estáis", "están"
-                ]
-            },
-            {
-                "word": "tener",
-                "meaning": "to have",
-                "conjugations":[
-                    "tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"
-                ]
-            },
-            {
-                "word": "dar",
-                "meaning": "to give",
-                "conjugations":[
-                    "doy", "das", "da", "damos", "dais", "dan"
-                ]
-            }
-        ]
+        "word": "vivir",
+        "meaning": "to live",
+        "regular": 0
+    },
+    {
+        "word": "comer",
+        "meaning": "to eat",
+        "regular": 0
+    },
+    {
+        "word": "mirar",
+        "meaning": "to look or view",
+        "regular": 0
+    },
+    {
+        "word": "beber",
+        "meaning": "to drink",
+        "regular": 0
+    },
+    {
+        "word": "abrir",
+        "meaning": "to open",
+        "regular": 0
+    },
+    {
+        "word": "correr",
+        "meaning": "to run",
+        "regular": 0
+    },
+    {
+        "word": "caminar",
+        "meaning": "to walk",
+        "regular": 0
+    },
+    {
+        "word": "escribir",
+        "meaning": "to write",
+        "regular": 0
     }
 ]
