@@ -2,46 +2,46 @@
     {
         "word": "hablar",
         "meaning": "to speak",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "vivir",
         "meaning": "to live",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "comer",
         "meaning": "to eat",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "mirar",
         "meaning": "to look or view",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "beber",
         "meaning": "to drink",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "abrir",
         "meaning": "to open",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "correr",
         "meaning": "to run",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "caminar",
         "meaning": "to walk",
-        "con": "none"
+        "con": "reg"
     },
     {
         "word": "escribir",
         "meaning": "to write",
-        "con": "none"
+        "con": "reg"
     }
 ]
