@@ -44,4 +44,19 @@
         "meaning": "to write",
         "con": "reg"
     }
+    {
+        "word": "ir",
+        "meaning": "to go",
+        "con": "voy", "vas", "va", "vamos", "vais", "van"
+    }
+    {
+        "word": "ser",
+        "meaning": "to be",
+        "con": "soy", "eres", "es", "somos", "sois", "son"
+    }
+    {
+        "word": "tener",
+        "meaning": "to have",
+        "con": "tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"
+    }
 ]
