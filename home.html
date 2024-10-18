@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topline">
+        <h1>Conju<span id="gator">gator</span></h1>
+        <img src="Crocodile.png" id="icon">
+    </div>
+
+    <div class="buttons">
+        <div class="input">
+            <p><button id="ranButton">Random Word</button></p>
+        </div>
+        <div class="input">
+            <p><button id="newButton">New Word</button></p>
+        </div>
+        <div class="input">
+            <p><button id="testButton">Test</button></p>
+        </div>
+
+    </div>
+
+    <div id="newWord" style="display: none;">
+        <p>Enter any Spanish verb ending in the <span class="tooltip">infinitive.</span><span class="tip1">Verbs ending in -ar, -er, or -ir.</span></p>
+        <input type="text" id="enterVerb">
+        <p><button id="conButton">Conjugate</button></p>
+    </div>
+
+    <div id="messageBox">
+        <div id="main"></div>
+        <div id="sub"></div>
+    </div>
+
+    <div id="testBox">
+        <div class="answer" id="test1" onclick="checkAnswer(document.getElementById('test1').innerHTML)"></div>
+        <div class="answer" id="test2" onclick="checkAnswer(document.getElementById('test2').innerHTML)"></div>
+        <div class="answer" id="test3" onclick="checkAnswer(document.getElementById('test3').innerHTML)"></div>
+    </div>
+
+    <p id="message"></p>
+
+    <div id="table" style="display: none;">
+        <div class="column" id="columnL">
+            <div class="output" id="output1"></div>
+            <div class="output" id="output2"></div>
+            <div class="output" id="output3"></div>
+        </div>
+    
+        <div class="column" id="columnR">
+            <div class="output" id="output4"></div>
+            <div class="output" id="output5"></div>
+            <div class="output" id="output6"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
