@@ -153,30 +153,30 @@ function conjugateNew() {
     const root = verb.substring(0, verb.length - 2);
     switch (true) {
         case ending === 'ar':
-            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `Tú ${root + 'as'}`;
-            document.getElementById('lowL').innerHTML = `Usted ${root + 'a'}`;
-            document.getElementById('topR').innerHTML = `Nosotros ${root + 'amos'}`;
-            document.getElementById('midR').innerHTML = `Vosotros ${root + 'áis'}`;
-            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'an'}`;
+            document.getElementById('topL').innerHTML = `${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `${root + 'as'}`;
+            document.getElementById('lowL').innerHTML = `${root + 'a'}`;
+            document.getElementById('topR').innerHTML = `${root + 'amos'}`;
+            document.getElementById('midR').innerHTML = `${root + 'áis'}`;
+            document.getElementById('lowR').innerHTML = `${root + 'an'}`;
             document.getElementById('table').style.display = 'flex';
             break;
         case ending === 'er':
-            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `Tú ${root + 'es'}`;
-            document.getElementById('lowL').innerHTML = `Usted ${root + 'e'}`;
-            document.getElementById('topR').innerHTML = `Nosotros ${root + 'emos'}`;
-            document.getElementById('midR').innerHTML = `Vosotros ${root + 'éis'}`;
-            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'en'}`;
+            document.getElementById('topL').innerHTML = `${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `${root + 'es'}`;
+            document.getElementById('lowL').innerHTML = `${root + 'e'}`;
+            document.getElementById('topR').innerHTML = `${root + 'emos'}`;
+            document.getElementById('midR').innerHTML = `${root + 'éis'}`;
+            document.getElementById('lowR').innerHTML = `${root + 'en'}`;
             document.getElementById('table').style.display = 'flex';
             break;
         case ending === 'ir':
-            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `Tú ${root + 'es'}`;
-            document.getElementById('lowL').innerHTML = `Usted ${root + 'e'}`;
-            document.getElementById('topR').innerHTML = `Nosotros ${root + 'imos'}`;
-            document.getElementById('midR').innerHTML = `Vosotros ${root + 'ís'}`;
-            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'en'}`;
+            document.getElementById('topL').innerHTML = `${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `${root + 'es'}`;
+            document.getElementById('lowL').innerHTML = `${root + 'e'}`;
+            document.getElementById('topR').innerHTML = `${root + 'imos'}`;
+            document.getElementById('midR').innerHTML = `${root + 'ís'}`;
+            document.getElementById('lowR').innerHTML = `${root + 'en'}`;
             document.getElementById('table').style.display = 'flex';
             break;
     }
