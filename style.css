@@ -80,25 +80,6 @@ h1 {
     padding: 10px;
 }
 
-#testBox {
-    display: none;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-}
-
-.answer {
-    width: 200px;
-    text-align: center;
-    border: 5px;
-    padding: 10px;
-    background-color: blanchedalmond;
-}
-
-.answer:hover {
-    background-color: white;
-}
-
 #main {
     font-size: 30px;
     text-align: center;
@@ -144,14 +125,12 @@ h1 {
     font-size: 24px;
     font-style: italic;
     width: 100px;
-    /* background-color: white; */
 }
 
 .output {
     font-size: 24px;
     text-align: center;
     width: 180px;
-    /* background-color: aquamarine; */
 }
 
 @media (max-width: 750px) {
