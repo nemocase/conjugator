@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugator</title>
+    <title>Conjugator 0.4</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,9 +20,6 @@
         <div class="input">
             <p><button id="newButton">New Word</button></p>
         </div>
-        <div class="input">
-            <p><button id="testButton">Test</button></p>
-        </div>
 
     </div>
 
@@ -37,25 +34,37 @@
         <div id="sub"></div>
     </div>
 
-    <div id="testBox">
-        <div class="answer" id="test1" onclick="checkAnswer(document.getElementById('test1').innerHTML)"></div>
-        <div class="answer" id="test2" onclick="checkAnswer(document.getElementById('test2').innerHTML)"></div>
-        <div class="answer" id="test3" onclick="checkAnswer(document.getElementById('test3').innerHTML)"></div>
-    </div>
-
     <p id="message"></p>
 
     <div id="table" style="display: none;">
         <div class="column" id="columnL">
-            <div class="output" id="output1"></div>
-            <div class="output" id="output2"></div>
-            <div class="output" id="output3"></div>
+            <div class="box" onclick="reveal('topL')">
+                <div class="pronoun">Yo</div>
+                <div class="output" id="topL" style="color: blanchedalmond;"></div>
+            </div>
+            <div class="box" onclick="reveal('midL')">
+                <div class="pronoun">Tú</div>
+                <div class="output" id="midL" style="color: blanchedalmond;"></div>
+            </div>
+            <div class="box" onclick="reveal('lowL')">
+                <div class="pronoun">Usted</div>
+                <div class="output" id="lowL" style="color: blanchedalmond;"></div>
+            </div>
         </div>
     
         <div class="column" id="columnR">
-            <div class="output" id="output4"></div>
-            <div class="output" id="output5"></div>
-            <div class="output" id="output6"></div>
+            <div class="box" onclick="reveal('topR')">
+                <div class="pronoun">Nosotros</div>
+                <div class="output" id="topR" style="color: blanchedalmond;"></div>
+            </div>
+            <div class="box" onclick="reveal('midR')">
+                <div class="pronoun">Vosotros</div>
+                <div class="output" id="midR" style="color: blanchedalmond;"></div>
+            </div>
+            <div class="box" onclick="reveal('lowR')">
+                <div class="pronoun">Ustedes</div>
+                <div class="output" id="lowR" style="color: blanchedalmond;"></div>
+            </div>
         </div>
     </div>
 
