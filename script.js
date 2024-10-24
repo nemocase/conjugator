@@ -1,13 +1,35 @@
+//CONJUGATOR v0.4
+
+/* 
+22/10/24
+    18:05 Hide/reveal is now working as intended! With some extra verbs, ConjuGator is ready to go.
+*/
+
 document.getElementById('newButton').addEventListener('click', takeNew)
 document.getElementById('conButton').addEventListener('click', conjugateNew)
 document.getElementById('ranButton').addEventListener('click', conjugateRandom)
-document.getElementById('testButton').addEventListener('click', test)
 
+// Verb list
 const esp = 'https://raw.githubusercontent.com/nemocase/conjugator/refs/heads/main/verbs.json'
 let verbA = [];
 let previous = [];
 let verb = [];
 let answer = '';
+
+
+function reveal(text) {
+    document.getElementById(text).style.color = 'black';
+}
+// When clicked (activated in HTML), words are changed to black and 'revealed'
+
+function hide(element) {
+    document.getElementById(element).style.color = 'blanchedalmond';
+}
+
+function hideLoop() {
+    const output = ['topL', 'midL', 'lowL', 'topR', 'midR', 'lowR'];
+    output.forEach(hide);
+}
 
 fetch(esp)
     .then(response => response.json()) // Parse the response as JSON
@@ -42,6 +64,7 @@ async function randomVerb() {
 // Combine conjugate and display functions
 function conjugateRandom() {
     document.getElementById('newWord').style.display = 'none';
+    hideLoop();
     randomVerb();
     if (verb[2] == "reg") { // Check if verb is regular
         verb[2] = regular(verb); // If regular, conjugate...
@@ -99,12 +122,12 @@ function display(verb) {
     document.getElementById('main').innerHTML = word.toUpperCase();
     document.getElementById('sub').innerHTML = meaning;
     document.getElementById('messageBox').style.display = 'flex';
-    document.getElementById('output1').innerHTML = `Yo ${con[0]}`;
-    document.getElementById('output2').innerHTML = `Tú ${con[1]}`;
-    document.getElementById('output3').innerHTML = `Usted ${con[2]}`;
-    document.getElementById('output4').innerHTML = `Nosotros ${con[3]}`;
-    document.getElementById('output5').innerHTML = `Vosotros ${con[4]}`;
-    document.getElementById('output6').innerHTML = `Ustedes ${con[5]}`;
+    document.getElementById('topL').innerHTML = `${con[0]}`;
+    document.getElementById('midL').innerHTML = `${con[1]}`;
+    document.getElementById('lowL').innerHTML = `${con[2]}`;
+    document.getElementById('topR').innerHTML = `${con[3]}`;
+    document.getElementById('midR').innerHTML = `${con[4]}`;
+    document.getElementById('lowR').innerHTML = `${con[5]}`;
     document.getElementById('table').style.display = 'flex';
     previous.push(word); // Appends the word to the "previous" array
     if (previous.length > 5) { // If "previous" is more than X number of words...
@@ -113,40 +136,6 @@ function display(verb) {
     console.log(previous);
 }
 
-// QUESTION FUNCTION
-function test() {
-    document.getElementById('main').innerHTML = '';
-    document.getElementById('sub').innerHTML = '';
-    document.getElementById('message').innerHTML = '';
-    document.getElementById('test1').style.background = 'blanchedalmond';
-    document.getElementById('newWord').style.display = 'none';
-    document.getElementById('table').style.display = 'none';
-    randomVerb();
-    answer = verb[0];
-    let meaning = verb[1];
-    previous.push(answer);
-    randomVerb();
-    let verb2 = verb[0];
-    previous.push(verb2);
-    randomVerb();
-    let verb3 = verb[0];
-    document.getElementById('sub').innerHTML = `Which word means "${meaning}" in Spanish?`;
-    document.getElementById('test1').innerHTML = `${answer}`;
-    document.getElementById('test2').innerHTML = `${verb2}`;
-    document.getElementById('test3').innerHTML = `${verb3}`;
-    document.getElementById('testBox').style.display = 'flex';
-    // Answer function
-}
-
-// ANSWER FUNCTION
-function checkAnswer(text) {
-    if (text == answer) {
-            document.getElementById('message').innerHTML = `Correct!`;
-            document.getElementById('test1').style.background = "limegreen";
-    } else {
-        document.getElementById('message').innerHTML =  `That's not it. Try again.`;
-    }
-}
 
 // Conjugate any infinitive
 function takeNew() {
@@ -164,30 +153,30 @@ function conjugateNew() {
     const root = verb.substring(0, verb.length - 2);
     switch (true) {
         case ending === 'ar':
-            document.getElementById('output1').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('output2').innerHTML = `Tú ${root + 'as'}`;
-            document.getElementById('output3').innerHTML = `Usted ${root + 'a'}`;
-            document.getElementById('output4').innerHTML = `Nosotros ${root + 'amos'}`;
-            document.getElementById('output5').innerHTML = `Vosotros ${root + 'áis'}`;
-            document.getElementById('output6').innerHTML = `Ustedes ${root + 'an'}`;
+            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `Tú ${root + 'as'}`;
+            document.getElementById('lowL').innerHTML = `Usted ${root + 'a'}`;
+            document.getElementById('topR').innerHTML = `Nosotros ${root + 'amos'}`;
+            document.getElementById('midR').innerHTML = `Vosotros ${root + 'áis'}`;
+            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'an'}`;
             document.getElementById('table').style.display = 'flex';
             break;
         case ending === 'er':
-            document.getElementById('output1').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('output2').innerHTML = `Tú ${root + 'es'}`;
-            document.getElementById('output3').innerHTML = `Usted ${root + 'e'}`;
-            document.getElementById('output4').innerHTML = `Nosotros ${root + 'emos'}`;
-            document.getElementById('output5').innerHTML = `Vosotros ${root + 'éis'}`;
-            document.getElementById('output6').innerHTML = `Ustedes ${root + 'en'}`;
+            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `Tú ${root + 'es'}`;
+            document.getElementById('lowL').innerHTML = `Usted ${root + 'e'}`;
+            document.getElementById('topR').innerHTML = `Nosotros ${root + 'emos'}`;
+            document.getElementById('midR').innerHTML = `Vosotros ${root + 'éis'}`;
+            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'en'}`;
             document.getElementById('table').style.display = 'flex';
             break;
         case ending === 'ir':
-            document.getElementById('output1').innerHTML = `Yo ${root + 'o'}`;
-            document.getElementById('output2').innerHTML = `Tú ${root + 'es'}`;
-            document.getElementById('output3').innerHTML = `Usted ${root + 'e'}`;
-            document.getElementById('output4').innerHTML = `Nosotros ${root + 'imos'}`;
-            document.getElementById('output5').innerHTML = `Vosotros ${root + 'ís'}`;
-            document.getElementById('output6').innerHTML = `Ustedes ${root + 'en'}`;
+            document.getElementById('topL').innerHTML = `Yo ${root + 'o'}`;
+            document.getElementById('midL').innerHTML = `Tú ${root + 'es'}`;
+            document.getElementById('lowL').innerHTML = `Usted ${root + 'e'}`;
+            document.getElementById('topR').innerHTML = `Nosotros ${root + 'imos'}`;
+            document.getElementById('midR').innerHTML = `Vosotros ${root + 'ís'}`;
+            document.getElementById('lowR').innerHTML = `Ustedes ${root + 'en'}`;
             document.getElementById('table').style.display = 'flex';
             break;
     }
