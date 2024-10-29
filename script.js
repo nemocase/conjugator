@@ -69,7 +69,7 @@ async function randomVerb() {
     }
 }
 
-// Combine conjugate and display functions
+// Conjugate verb and display result
 function conjugateRandom() {
     document.getElementById('search').style.display = 'none';
     hideLoop();
@@ -148,6 +148,8 @@ function display(verb) {
 // Search verb database
 function findVerb() {
     hideLoop();
+    document.getElementById('main').innerHTML = '';
+    document.getElementById('table').style.display = 'none';
     const field = verbA;
     const query = document.getElementById('enterVerb').value;
 /*     if (query.match('to') < 1) {
@@ -166,8 +168,6 @@ function findVerb() {
         message = 'No result found. Make sure the word is spelled correctly and ends in <b>-er</b>, <b>-ar</b>, or <b>-ir.</b>'
         document.getElementById('sub').innerHTML = message;
     } else if (result[2] == 'reg') {
-        document.getElementById('main').innerHTML = '';
-        document.getElementById('table').style.display = 'none';
         result[2] = regular(result);
         display(result);
     } else {
