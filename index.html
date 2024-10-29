@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugator 0.4</title>
+    <title>Conjugator v0.5</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,28 +13,26 @@
         <img src="Crocodile.png" id="icon">
     </div>
 
-    <div class="buttons">
-        <div class="input">
-            <p><button id="ranButton">Random Word</button></p>
+    <div class="buttonLine">
+        <div class="buttonSingle">
+            <p><button id="ranButton" onclick="buttonDown('ranButton')">Random Word</button></p>
         </div>
-        <div class="input">
-            <p><button id="newButton">New Word</button></p>
+        <div class="buttonSingle">
+            <p><button id="switchButton" onclick="buttonDown('switchButton')">Find Word</button></p>
         </div>
 
     </div>
 
-    <div id="newWord" style="display: none;">
-        <p>Enter any Spanish verb ending in the <span class="tooltip">infinitive.</span><span class="tip1">Verbs ending in -ar, -er, or -ir.</span></p>
-        <input type="text" id="enterVerb">
-        <p><button id="conButton">Conjugate</button></p>
+    <div id="search" style="display: none;">
+        <p>Enter any Spanish verb in the <span class="tooltip">infinitive,</span><span class="tip1">Verbs ending in -ar, -er, or -ir.</span> or search by meaning.</p>
+        <p><input type="text" id="enterVerb"></p>
+        <p id="searchLine"><button id="findButton" onclick="buttonDown('findButton')">Search</button></p>
     </div>
 
     <div id="messageBox">
         <div id="main"></div>
         <div id="sub"></div>
     </div>
-
-    <p id="message"></p>
 
     <div id="table" style="display: none;">
         <div class="column" id="columnL">
