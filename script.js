@@ -1,13 +1,8 @@
-//CONJUGATOR v0.4
+//! VERSION: 0.5
 
-/* 
-22/10/24
-    18:05 Hide/reveal is now working as intended! With some extra verbs, ConjuGator is ready to go.
-*/
-
-document.getElementById('newButton').addEventListener('click', takeNew)
-document.getElementById('conButton').addEventListener('click', conjugateNew)
 document.getElementById('ranButton').addEventListener('click', conjugateRandom)
+document.getElementById('switchButton').addEventListener('click', modeSwitch)
+document.getElementById('findButton').addEventListener('click', findVerb)
 
 // Verb list
 const esp = 'https://raw.githubusercontent.com/nemocase/conjugator/refs/heads/main/verbs.json'
@@ -16,7 +11,7 @@ let previous = [];
 let verb = [];
 let answer = '';
 
-
+// Hide and reveal functions
 function reveal(text) {
     document.getElementById(text).style.color = 'black';
 }
@@ -31,6 +26,19 @@ function hideLoop() {
     output.forEach(hide);
 }
 
+// Button press functions
+function buttonDown(a) {
+    document.getElementById(a).style.border = '4px inset black';
+    document.getElementById(a).style.background = 'silver';
+    setTimeout(buttonUp, 120, a);
+}
+
+function buttonUp(a) {
+    document.getElementById(a).style.border = '2px outset black';
+    document.getElementById(a).style.background = 'gainsboro';
+}
+
+// Fetch the verb list on page load
 fetch(esp)
     .then(response => response.json()) // Parse the response as JSON
     .then(verbs => {
@@ -63,7 +71,7 @@ async function randomVerb() {
 
 // Combine conjugate and display functions
 function conjugateRandom() {
-    document.getElementById('newWord').style.display = 'none';
+    document.getElementById('search').style.display = 'none';
     hideLoop();
     randomVerb();
     if (verb[2] == "reg") { // Check if verb is regular
@@ -72,6 +80,12 @@ function conjugateRandom() {
     } else {
         display(verb); // If irregular, display without conjugating
     }
+    let word = verb[0];
+    previous.push(word); // Appends the word to the "previous" array
+    if (previous.length > 5) { // If "previous" is more than X number of words...
+        previous.shift(); // ...the first (oldest) word is removed.
+    }
+    console.log(previous);
 }
 
 // Conjugate regular verbs
@@ -129,55 +143,43 @@ function display(verb) {
     document.getElementById('midR').innerHTML = `${con[4]}`;
     document.getElementById('lowR').innerHTML = `${con[5]}`;
     document.getElementById('table').style.display = 'flex';
-    previous.push(word); // Appends the word to the "previous" array
-    if (previous.length > 5) { // If "previous" is more than X number of words...
-        previous.shift(); // ...the first (oldest) word is removed.
-    }
-    console.log(previous);
 }
 
+// Search verb database
+function findVerb() {
+    hideLoop();
+    const field = verbA;
+    const query = document.getElementById('enterVerb').value;
+/*     if (query.match('to') < 1) {
+        query = `to ${query}`;
+    } */
+    let message = '';
+    let result = ['word', 'meaning', 'con'];
+    field.forEach(word => {
+        if (word[0] == query || word[1] == query || word[1] == `to ${query}`) {
+            result[0] = word[0];
+            result[1] = word[1];
+            result[2] = word[2];
+        }
+    });
+    if (result[0] == 'word') {
+        message = 'No result found. Make sure the word is spelled correctly and ends in <b>-er</b>, <b>-ar</b>, or <b>-ir.</b>'
+        document.getElementById('sub').innerHTML = message;
+    } else if (result[2] == 'reg') {
+        document.getElementById('main').innerHTML = '';
+        document.getElementById('table').style.display = 'none';
+        result[2] = regular(result);
+        display(result);
+    } else {
+        display(result);
+    }
+    console.log(result);
+}
 
-// Conjugate any infinitive
-function takeNew() {
+// Switch between Random Word and Find Word displays on web page
+function modeSwitch() {
     document.getElementById('main').innerHTML = '';
     document.getElementById('sub').innerHTML = '';
     document.getElementById('table').style.display = 'none';
-    document.getElementById('newWord').style.display = 'flex';
-}
-
-function conjugateNew() {
-    console.clear();
-    const verb = document.getElementById('enterVerb').value;
-    document.getElementById('main').innerHTML = `${verb}`;
-    const ending = verb.substring(verb.length - 2);
-    const root = verb.substring(0, verb.length - 2);
-    switch (true) {
-        case ending === 'ar':
-            document.getElementById('topL').innerHTML = `${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `${root + 'as'}`;
-            document.getElementById('lowL').innerHTML = `${root + 'a'}`;
-            document.getElementById('topR').innerHTML = `${root + 'amos'}`;
-            document.getElementById('midR').innerHTML = `${root + 'áis'}`;
-            document.getElementById('lowR').innerHTML = `${root + 'an'}`;
-            document.getElementById('table').style.display = 'flex';
-            break;
-        case ending === 'er':
-            document.getElementById('topL').innerHTML = `${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `${root + 'es'}`;
-            document.getElementById('lowL').innerHTML = `${root + 'e'}`;
-            document.getElementById('topR').innerHTML = `${root + 'emos'}`;
-            document.getElementById('midR').innerHTML = `${root + 'éis'}`;
-            document.getElementById('lowR').innerHTML = `${root + 'en'}`;
-            document.getElementById('table').style.display = 'flex';
-            break;
-        case ending === 'ir':
-            document.getElementById('topL').innerHTML = `${root + 'o'}`;
-            document.getElementById('midL').innerHTML = `${root + 'es'}`;
-            document.getElementById('lowL').innerHTML = `${root + 'e'}`;
-            document.getElementById('topR').innerHTML = `${root + 'imos'}`;
-            document.getElementById('midR').innerHTML = `${root + 'ís'}`;
-            document.getElementById('lowR').innerHTML = `${root + 'en'}`;
-            document.getElementById('table').style.display = 'flex';
-            break;
-    }
+    document.getElementById('search').style.display = 'flex';
 }
