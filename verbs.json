@@ -1,22 +1,7 @@
 [
     {
-        "word": "hablar",
-        "meaning": "to speak",
-        "con": "reg"
-    },
-    {
-        "word": "vivir",
-        "meaning": "to live",
-        "con": "reg"
-    },
-    {
-        "word": "comer",
-        "meaning": "to eat",
-        "con": "reg"
-    },
-    {
-        "word": "mirar",
-        "meaning": "to look or view",
+        "word": "abrir",
+        "meaning": "to open",
         "con": "reg"
     },
     {
@@ -25,8 +10,18 @@
         "con": "reg"
     },
     {
-        "word": "abrir",
-        "meaning": "to open",
+        "word": "caminar",
+        "meaning": "to walk",
+        "con": "reg"
+    },
+    {
+        "word": "comenzar",
+        "meaning": "to begin",
+        "con": ["comienzo", "comienzas", "comienza", "comenzamos", "comenzáis", "comienzan"]
+    },
+    {
+        "word": "comer",
+        "meaning": "to eat",
         "con": "reg"
     },
     {
@@ -35,9 +30,9 @@
         "con": "reg"
     },
     {
-        "word": "caminar",
-        "meaning": "to walk",
-        "con": "reg"
+        "word": "empezar",
+        "meaning": "to start",
+        "con": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"]
     },
     {
         "word": "escribir",
@@ -45,8 +40,38 @@
         "con": "reg"
     },
     {
+        "word": "hablar",
+        "meaning": "to speak",
+        "con": "reg"
+    },
+    {
         "word": "ir",
         "meaning": "to go",
         "con":["voy", "vas", "va", "vamos", "vais", "van"]
+    },
+    {
+        "word": "mirar",
+        "meaning": "to look or view",
+        "con": "reg"
+    },
+    {
+        "word": "pensar",
+        "meaning": "to think",
+        "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
+    },
+    {
+        "word": "preferir",
+        "meaning": "to prefer",
+        "con":["prefiero", "prefieres", "prefiere", "preferimos", "preferís", "prefieren"]
+    },
+    {
+        "word": "querer",
+        "meaning": "to want",
+        "con":["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"]
+    },
+    {
+        "word": "vivir",
+        "meaning": "to live",
+        "con": "reg"
     }
 ]
