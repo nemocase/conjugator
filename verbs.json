@@ -5,6 +5,11 @@
         "con": "reg"
     },
     {
+        "word": "aprender",
+        "meaning": "to learn",
+        "con": "reg"
+    },
+    {
         "word": "beber",
         "meaning": "to drink",
         "con": "reg"
@@ -13,6 +18,11 @@
         "word": "caminar",
         "meaning": "to walk",
         "con": "reg"
+    },
+    {
+        "word": "cerrar",
+        "meaning": "to close",
+        "con":["cierro", "cerras", "cerra", "cerramos", "cerráis", "cerran"]
     },
     {
         "word": "comenzar",
@@ -28,6 +38,16 @@
         "word": "correr",
         "meaning": "to run",
         "con": "reg"
+    },
+    {
+        "word": "dar",
+        "meaning": "to give",
+        "con":["doy", "das", "da", "damos", "dais", "dan"]
+    },
+    {
+        "word": "dormir",
+        "meaning": "to sleep",
+        "con": ["duermo", "duermes", "duerme", "dormimos", "dormís", "duermen"]
     },
     {
         "word": "empezar",
@@ -55,6 +75,11 @@
         "con": "reg"
     },
     {
+        "word": "necesitar",
+        "meaning": "to need",
+        "con": "reg",
+    },
+    {
         "word": "pensar",
         "meaning": "to think",
         "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
@@ -73,6 +98,36 @@
         "word": "recomendar",
         "meaning": "to recommend",
         "con":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"]
+    },
+    {
+        "word": "saber",
+        "meaning": "to know",
+        "con":["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"]
+    },
+    {
+        "word": "ser",
+        "meaning": "to be",
+        "con":["soy", "eres", "es", "somos", "sois", "son"]
+    },
+    {
+        "word": "tener",
+        "meaning": "to have",
+        "con":["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"]
+    },
+    {
+        "word:" "tomar",
+        "meaning": "to take",
+        "con": "reg"
+    },
+    {
+        "word": "trabajar",
+        "meaning": "to work",
+        "con": "reg"
+    },
+    {
+        "word": "usar",
+        "meaning": "to use",
+        "con": "reg"
     },
     {
         "word": "vivir",
