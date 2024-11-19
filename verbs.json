@@ -5,8 +5,23 @@
         "con": "reg"
     },
     {
+        "word": "amar",
+        "meaning": "to love",
+        "con": "reg"
+    },
+    {
         "word": "aprender",
         "meaning": "to learn",
+        "con": "reg"
+    },
+    {
+        "word": "ayudar",
+        "meaning": "to help",
+        "con": "reg"
+    },
+    {
+        "word": "bailar",
+        "meaning": "to dance",
         "con": "reg"
     },
     {
@@ -20,9 +35,24 @@
         "con": "reg"
     },
     {
+        "word": "cantar",
+        "meaning": "to sing",
+        "con": "reg"
+    },
+    {
+        "word": "cenar",
+        "meaning": "to dine",
+        "con": "reg"
+    },
+    {
         "word": "cerrar",
         "meaning": "to close",
         "con":["cierro", "cerras", "cerra", "cerramos", "cerráis", "cerran"]
+    },
+    {
+        "word": "cocinar",
+        "meaning": "to cook",
+        "con": "reg"
     },
     {
         "word": "comenzar",
@@ -35,14 +65,34 @@
         "con": "reg"
     },
     {
+        "word": "comprar",
+        "meaning": "to buy",
+        "con": "reg"
+    },
+    {
         "word": "correr",
         "meaning": "to run",
+        "con": "reg"
+    },
+    {
+        "word": "creer",
+        "meaning": "to believe or think",
         "con": "reg"
     },
     {
         "word": "dar",
         "meaning": "to give",
         "con":["doy", "das", "da", "damos", "dais", "dan"]
+    },
+    {
+        "word": "dibujar",
+        "meaning": "to draw",
+        "con": "reg"
+    },
+    {
+        "word": "disfrutar",
+        "meaning": "to enjoy",
+        "con": "reg"
     },
     {
         "word": "dormir",
@@ -55,6 +105,11 @@
         "con": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"]
     },
     {
+        "word": "entrar",
+        "meaning": "to enter",
+        "con": "reg"
+    },
+    {
         "word": "escribir",
         "meaning": "to write",
         "con": "reg"
@@ -65,13 +120,43 @@
         "con": "reg"
     },
     {
+        "word": "hacer",
+        "meaning": "to make or do",
+        "con":["hago", "haces", "hace", "hacemos", "hacéis", "hacen"]
+    },
+    {
         "word": "ir",
         "meaning": "to go",
         "con":["voy", "vas", "va", "vamos", "vais", "van"]
     },
     {
+        "word": "jugar",
+        "meaning": "to play",
+        "con":["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"]
+    },
+    {
+        "word": "leer",
+        "meaning": "to read",
+        "con": "reg"
+    },
+    {
+        "word": "llegar",
+        "meaning": "to arrive",
+        "con": "reg"
+    },
+    {
+        "word": "llevar",
+        "meaning": "to carry",
+        "con": "reg"
+    },
+    {
         "word": "mirar",
         "meaning": "to look or view",
+        "con": "reg"
+    },
+    {
+        "word": "nadar",
+        "meaning": "to swim",
         "con": "reg"
     },
     {
@@ -80,9 +165,19 @@
         "con": "reg",
     },
     {
+        "word": "oír",
+        "meaning": "to hear",
+        "con":["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
+    },
+    {
         "word": "pensar",
         "meaning": "to think",
         "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
+    },
+    {
+        "word": "pintar",
+        "meaning": "to paint",
+        "con": "reg"
     },
     {
         "word": "preferir",
@@ -105,6 +200,11 @@
         "con":["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"]
     },
     {
+        "word": "salir",
+        "meaning": "to go out",
+        "con": ["salgo", "sales", "sale", "salimos", "salís", "salen"]
+    },
+    {
         "word": "ser",
         "meaning": "to be",
         "con":["soy", "eres", "es", "somos", "sois", "son"]
@@ -113,6 +213,16 @@
         "word": "tener",
         "meaning": "to have",
         "con":["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"]
+    },
+    {
+        "word": "terminar",
+        "meaning": "to finish",
+        "con": "reg"
+    },
+    {
+        "word": "tocar",
+        "meaning": "to touch or play",
+        "con": "reg"
     },
     {
         "word:" "tomar",
@@ -130,8 +240,28 @@
         "con": "reg"
     },
     {
+        "word": "vender",
+        "meaning": "to sell",
+        "con": "reg"
+    },
+    {
+        "word": "ver",
+        "meaning": "to see or watch",
+        "con":["veo", "ves", "ve", "vemos", "veis", "ven"]
+    },
+    {
+        "word": "viajar",
+        "meaning": "to travel",
+        "con": "reg"
+    },
+    {
         "word": "vivir",
         "meaning": "to live",
         "con": "reg"
+    },
+    {
+        "word": "volver",
+        "meaning": "to return",
+        "con": ["vuelvo", "vuelves", "vuelve", "volvemos", "volvéis", "vuelven"]
     }
 ]
