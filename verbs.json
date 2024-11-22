@@ -15,6 +15,11 @@
         "con": "reg"
     },
     {
+        "word": "avanzar",
+        "meaning": "to advance or progress",
+        "con": "reg"
+    },
+    {
         "word": "ayudar",
         "meaning": "to help",
         "con": "reg"
@@ -32,6 +37,11 @@
     {
         "word": "besar",
         "meaning": "to kiss",
+        "con": "reg"
+    },
+    {
+        "word": "buscar",
+        "meaning": "to look for",
         "con": "reg"
     },
     {
@@ -70,6 +80,11 @@
         "con": "reg"
     },
     {
+        "word": "cometer",
+        "meaning": "to commit",
+        "con": "reg"
+    },
+    {
         "word": "comprar",
         "meaning": "to buy",
         "con": "reg"
@@ -78,6 +93,11 @@
         "word": "conducir",
         "meaning": "to drive",
         "con":["conduzco", "conduces", "conduce", "conducimos", "conducís", "conducen"]
+    },
+    {
+        "word": "conseguir",
+        "meaning": "to achieve or obtain",
+        "con":["consigo", "consigues", "consigue", "conseguimos", "conseguís", "consiguen"]
     },
     {
         "word": "correr",
@@ -98,6 +118,11 @@
         "word": "dar",
         "meaning": "to give",
         "con":["doy", "das", "da", "damos", "dais", "dan"]
+    },
+    {
+        "word": "desear",
+        "meaning": "to desire or wish",
+        "con": "reg"
     },
     {
         "word": "dibujar",
@@ -130,6 +155,11 @@
         "con": "reg"
     },
     {
+        "word": "entender",
+        "meaning": "to understand",
+        "con":["entiendo", "entiendes", "entienda", "entendemos", "entendéis", "entienden"
+    },
+    {
         "word": "entrar",
         "meaning": "to enter",
         "con": "reg"
@@ -152,6 +182,16 @@
     {
         "word": "fumar",
         "meaning": "to smoke",
+        "con": "reg"
+    },
+    {
+        "word": "ganar",
+        "meaning": "to gain",
+        "con": "reg"
+    },
+    {
+        "word": "grabar",
+        "meaning": "to record",
         "con": "reg"
     },
     {
@@ -211,7 +251,7 @@
     },
     {
         "word": "mirar",
-        "meaning": "to look or view",
+        "meaning": "to view",
         "con": "reg"
     },
     {
@@ -230,9 +270,19 @@
         "con": "reg"
     },
     {
+        "word": "odiar",
+        "meaning": "to hate",
+        "con": "reg"
+    },
+    {
         "word": "oír",
         "meaning": "to hear",
         "con":["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
+    },
+    {
+        "word": "olvidar",
+        "meaning": "to forget",
+        "con": "reg"
     },
     {
         "word": "partir",
@@ -255,6 +305,11 @@
         "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
     },
     {
+        "word": "perder",
+        "meaning": "to lose",
+        "con":["pierdo", "pierdes", "pierde", "perdemos", "perdéis", "pierden"]
+    },
+    {
         "word": "perseguir",
         "meaning": "to pursue or persecute",
         "con":["persigo", "persegues", "persigue", "persiguimos", "persiguís", "persiguen"]
@@ -265,9 +320,24 @@
         "con": "reg"
     },
     {
+        "word": "poder",
+        "meaning": "can or able",
+        "con":["puedo", "puedes", "puede", "podemos", "podéis", "pueden"]
+    },
+    {
+        "word": "practicar",
+        "meaning": "to practice",
+        "con": "reg"
+    },
+    {
         "word": "preferir",
         "meaning": "to prefer",
         "con":["prefiero", "prefieres", "prefiere", "preferimos", "preferís", "prefieren"]
+    },
+    {
+        "word": "probar",
+        "meaning": "to try or prove",
+        "con":["pruebo", "pruebas", "prueba", "probamos", "probáis", "prueban"]
     },
     {
         "word": "querer",
@@ -278,6 +348,16 @@
         "word": "recomendar",
         "meaning": "to recommend",
         "con":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"]
+    },
+    {
+        "word": "recordar",
+        "meaning": "to remember",
+        "con":["recuerdo", "recuerdas", "recuerda", "recordamos", "recordáis", "recuerdan"]
+    },
+    {
+        "word": "repasar",
+        "meaning": "to review",
+        "con": "reg"
     },
     {
         "word": "responder",
@@ -298,6 +378,11 @@
         "word": "ser",
         "meaning": "to be",
         "con":["soy", "eres", "es", "somos", "sois", "son"]
+    },
+    {
+        "word": "sufrir",
+        "meaning": "to suffer",
+        "con": "reg"
     },
     {
         "word": "tener",
