@@ -30,6 +30,11 @@
         "con": "reg"
     },
     {
+        "word": "besar",
+        "meaning": "to kiss",
+        "con": "reg"
+    },
+    {
         "word": "caminar",
         "meaning": "to walk",
         "con": "reg"
@@ -70,8 +75,18 @@
         "con": "reg"
     },
     {
+        "word": "conducir",
+        "meaning": "to drive",
+        "con":["conduzco", "conduces", "conduce", "conducimos", "conducís", "conducen"]
+    },
+    {
         "word": "correr",
         "meaning": "to run",
+        "con": "reg"
+    },
+    {
+        "word": "cortar",
+        "meaning": "to cut",
         "con": "reg"
     },
     {
@@ -105,6 +120,16 @@
         "con": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"]
     },
     {
+        "word": "encontrar",
+        "meaning": "to find",
+        "con":["encuentro", "encuentras", "encuentra", "encontramos", "encontráis", "encuentran"]
+    },
+    {
+        "word": "enseñar",
+        "meaning": "to teach",
+        "con": "reg"
+    },
+    {
         "word": "entrar",
         "meaning": "to enter",
         "con": "reg"
@@ -112,6 +137,26 @@
     {
         "word": "escribir",
         "meaning": "to write",
+        "con": "reg"
+    },
+    {
+        "word": "escuchar",
+        "meaning": "to listen",
+        "con": "reg"
+    },
+    {
+        "word": "esperar",
+        "meaning": "to wait or hope",
+        "con": "reg"
+    },
+    {
+        "word": "fumar",
+        "meaning": "to smoke",
+        "con": "reg"
+    },
+    {
+        "word": "gritar",
+        "meaning": "to shout",
         "con": "reg"
     },
     {
@@ -140,6 +185,16 @@
         "con": "reg"
     },
     {
+        "word": "limpiar",
+        "meaning": "to clean",
+        "con": "reg"
+    },
+    {
+        "word": "llamar",
+        "meaning": "to call",
+        "con": "reg"
+    },
+    {
         "word": "llegar",
         "meaning": "to arrive",
         "con": "reg"
@@ -150,8 +205,18 @@
         "con": "reg"
     },
     {
+        "word": "llorar",
+        "meaning": "to weep",
+        "con": "reg"
+    },
+    {
         "word": "mirar",
         "meaning": "to look or view",
+        "con": "reg"
+    },
+    {
+        "word": "montar",
+        "meaning": "to ride",
         "con": "reg"
     },
     {
@@ -170,9 +235,29 @@
         "con":["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
     },
     {
+        "word": "partir",
+        "meaning": "to divide",
+        "con": "reg"
+    },
+    {
+        "word": "pedir",
+        "meaning": "to ask",
+        "con":["pido", "pides", "pide", "pedimos", "pedís", "piden"]
+    },
+    {
+        "word": "pelear",
+        "meaning": "to argue",
+        "con": "reg"
+    },
+    {
         "word": "pensar",
         "meaning": "to think",
         "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
+    },
+    {
+        "word": "perseguir",
+        "meaning": "to pursue or persecute",
+        "con":["persigo", "persegues", "persigue", "persiguimos", "persiguís", "persiguen"]
     },
     {
         "word": "pintar",
@@ -193,6 +278,11 @@
         "word": "recomendar",
         "meaning": "to recommend",
         "con":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"]
+    },
+    {
+        "word": "responder",
+        "meaning": "to respond",
+        "con": "reg"
     },
     {
         "word": "saber",
