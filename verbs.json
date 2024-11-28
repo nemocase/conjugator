@@ -140,6 +140,11 @@
         "con": ["duermo", "duermes", "duerme", "dormimos", "dormís", "duermen"]
     },
     {
+        "word": "echar",
+        "meaning": "to throw",
+        "con": "reg"
+    },
+    {
         "word": "empezar",
         "meaning": "to start",
         "con": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"]
@@ -210,6 +215,11 @@
         "con":["hago", "haces", "hace", "hacemos", "hacéis", "hacen"]
     },
     {
+        "word": "invitar",
+        "meaning": "to invite",
+        "con":["invito", "invitas", "invita", "invitamos", "invitáis", "invitan"]
+    },
+    {
         "word": "ir",
         "meaning": "to go",
         "con":["voy", "vas", "va", "vamos", "vais", "van"]
@@ -260,6 +270,11 @@
         "con": "reg"
     },
     {
+        "word": "mostrar",
+        "meaning": "to show",
+        "con":["muestro", "muestras", "muestra", "mostramos", "mostráis", "muestran"]
+    },
+    {
         "word": "nadar",
         "meaning": "to swim",
         "con": "reg"
@@ -283,6 +298,11 @@
         "word": "olvidar",
         "meaning": "to forget",
         "con": "reg"
+    },
+    {
+        "word": "paracer",
+        "meaning": "to seem",
+        "con":["parezco", "pareces", "parece", "parecemos", "parecéis", "parecen"]
     },
     {
         "word": "partir",
@@ -323,6 +343,11 @@
         "word": "poder",
         "meaning": "can or able",
         "con":["puedo", "puedes", "puede", "podemos", "podéis", "pueden"]
+    },
+    {
+        "word": "poner",
+        "meaning": "to put",
+        "con":["pongo", "pones", "pone", "ponemos", "ponéis", "ponen"]
     },
     {
         "word": "practicar",
