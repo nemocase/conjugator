@@ -155,6 +155,11 @@
         "con":["encuentro", "encuentras", "encuentra", "encontramos", "encontráis", "encuentran"]
     },
     {
+        "word": "esconder",
+        "meaning": "to hide",
+        "con": "reg"
+    },
+    {
         "word": "enseñar",
         "meaning": "to teach",
         "con": "reg"
