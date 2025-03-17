@@ -11,6 +11,7 @@
     {
         "word": "acompañar",
         "meaning": "to accompany",
+        "reflexive": "no",
         "present":"reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -129,6 +130,7 @@
         "meaning": "to dine",
         "reflexive": "no",
         "present": "reg",
+        "imperfect": "reg",
         "preterite": "reg",
         "participle": "cenado"
     },
@@ -234,6 +236,7 @@
     {
         "word": "cuidar",
         "meaning": "to care for",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -251,6 +254,7 @@
     {
         "word": "deber",
         "meaning": "must or should",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -304,6 +308,7 @@
     {
         "word": "elegir",
         "meaning": "to choose",
+        "reflexive": "no",
         "present": ["elijo", "eliges", "elige", "elegimos", "elegís", "eligen"],
         "imperfect": "reg",
         "preterite": ["elegí", "elegiste", "eligió", "elegimos", "elegisteis", "eligieron"],
@@ -321,6 +326,7 @@
     {
         "word": "encontrar",
         "meaning": "to find",
+        "reflexive": "no",
         "present":["encuentro", "encuentras", "encuentra", "encontramos", "encontráis", "encuentran"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -329,6 +335,7 @@
     {
         "word": "enseñar",
         "meaning": "to teach",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -337,6 +344,7 @@
     {
         "word": "entender",
         "meaning": "to understand",
+        "reflexive": "no",
         "present":["entiendo", "entiendes", "entienda", "entendemos", "entendéis", "entienden"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -345,6 +353,7 @@
     {
         "word": "entrar",
         "meaning": "to enter",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -353,6 +362,7 @@
     {
         "word": "esconder",
         "meaning": "to hide",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -361,6 +371,7 @@
     {
         "word": "escribir",
         "meaning": "to write",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -369,6 +380,7 @@
     {
         "word": "escuchar",
         "meaning": "to listen",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -377,6 +389,7 @@
     {
         "word": "esperar",
         "meaning": "to wait or hope",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -385,6 +398,7 @@
     {
         "word": "fumar",
         "meaning": "to smoke",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -393,6 +407,7 @@
     {
         "word": "ganar",
         "meaning": "to gain",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -401,6 +416,7 @@
     {
         "word": "grabar",
         "meaning": "to record",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -409,6 +425,7 @@
     {
         "word": "gritar",
         "meaning": "to shout",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -417,6 +434,7 @@
     {
         "word": "hablar",
         "meaning": "to speak",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -425,6 +443,7 @@
     {
         "word": "hacer",
         "meaning": "to make or do",
+        "reflexive": "no",
         "present":["hago", "haces", "hace", "hacemos", "hacéis", "hacen"],
         "imperfect": "reg",
         "preterite": ["hice", "hiciste", "hizo", "hicimos", "hicisteis", "hicieron"],
@@ -433,6 +452,7 @@
     {
         "word": "invitar",
         "meaning": "to invite",
+        "reflexive": "no",
         "present":["invito", "invitas", "invita", "invitamos", "invitáis", "invitan"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -450,6 +470,7 @@
     {
         "word": "jugar",
         "meaning": "to play",
+        "reflexive": "no",
         "present":["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"],
         "imperfect": "reg",
         "preterite": ["jugué", "jugaste", "jugó", "jugamos", "jugasteis", "jugaron"],
@@ -458,6 +479,7 @@
     {
         "word": "leer",
         "meaning": "to read",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": ["leí", "leiste", "leyó", "leímos", "leisteis", "leyeron"],
@@ -466,6 +488,7 @@
     {
         "word": "limpiar",
         "meaning": "to clean",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -474,6 +497,7 @@
     {
         "word": "llamar",
         "meaning": "to call",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -482,6 +506,7 @@
     {
         "word": "llegar",
         "meaning": "to arrive",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": ["llegué", "llegaste", "llegó", "llegamos", "llegasteis", "llegaron"],
@@ -490,6 +515,7 @@
     {
         "word": "llevar",
         "meaning": "to carry",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -498,6 +524,7 @@
     {
         "word": "llorar",
         "meaning": "to weep",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -506,6 +533,7 @@
     {
         "word": "mirar",
         "meaning": "to view",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -514,6 +542,7 @@
     {
         "word": "montar",
         "meaning": "to ride",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -522,6 +551,7 @@
     {
         "word": "mostrar",
         "meaning": "to show",
+        "reflexive": "no",
         "present":["muestro", "muestras", "muestra", "mostramos", "mostráis", "muestran"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -530,6 +560,7 @@
     {
         "word": "nadar",
         "meaning": "to swim",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -538,6 +569,7 @@
     {
         "word": "necesitar",
         "meaning": "to need",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -546,6 +578,7 @@
     {
         "word": "odiar",
         "meaning": "to hate",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -554,6 +587,7 @@
     {
         "word": "oír",
         "meaning": "to hear",
+        "reflexive": "no",
         "present":["oigo", "oyes", "oye", "oímos", "oís", "oyen"],
         "imperfect": "reg",
         "preterite": ["oí", "oíste", "oyó", "oímos", "oísteis", "oyeron"],
@@ -562,6 +596,7 @@
     {
         "word": "olvidar",
         "meaning": "to forget",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -570,6 +605,7 @@
     {
         "word": "parecer",
         "meaning": "to seem",
+        "reflexive": "no",
         "present":["parezco", "pareces", "parece", "parecemos", "parecéis", "parecen"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -578,6 +614,7 @@
     {
         "word": "partir",
         "meaning": "to divide",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -586,6 +623,7 @@
     {
         "word": "pedir",
         "meaning": "to ask",
+        "reflexive": "no",
         "present":["pido", "pides", "pide", "pedimos", "pedís", "piden"],
         "imperfect": "reg",
         "preterite": ["pedí", "pediste", "pidió", "pedimos", "pedisteis", "pidieron"],
@@ -594,6 +632,7 @@
     {
         "word": "pelear",
         "meaning": "to argue",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -602,6 +641,7 @@
     {
         "word": "pensar",
         "meaning": "to think",
+        "reflexive": "no",
         "present": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -610,6 +650,7 @@
     {
         "word": "perder",
         "meaning": "to lose",
+        "reflexive": "no",
         "present":["pierdo", "pierdes", "pierde", "perdemos", "perdéis", "pierden"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -618,6 +659,7 @@
     {
         "word": "perseguir",
         "meaning": "to pursue or persecute",
+        "reflexive": "no",
         "present":["persigo", "persegues", "persigue", "persiguimos", "persiguís", "persiguen"],
         "imperfect": "reg",
         "preterite": ["perseguí", "perseguiste", "persiguió", "perseguimos", "perseguisteis", "persiguieron"],
@@ -626,6 +668,7 @@
     {
         "word": "pesar",
         "meaning": "to weigh",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -634,6 +677,7 @@
     {
         "word": "pintar",
         "meaning": "to paint",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -642,6 +686,7 @@
     {
         "word": "poder",
         "meaning": "can or able",
+        "reflexive": "no",
         "present":["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
         "imperfect": "reg",
         "preterite": ["pude", "pudiste", "pudo", "pudimos", "pudisteis", "pudieron"],
@@ -650,6 +695,7 @@
     {
         "word": "poner",
         "meaning": "to put",
+        "reflexive": "no",
         "present":["pongo", "pones", "pone", "ponemos", "ponéis", "ponen"],
         "imperfect": "reg",
         "preterite": ["puse", "pusiste", "puso", "pusimos", "pusisteis", "pusieron"],
@@ -658,6 +704,7 @@
     {
         "word": "practicar",
         "meaning": "to practice",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": ["practiqué", "practicaste", "practicó", "practicamos", "practicasteis", "practicaron"],
@@ -666,6 +713,7 @@
     {
         "word": "preferir",
         "meaning": "to prefer",
+        "reflexive": "no",
         "present":["prefiero", "prefieres", "prefiere", "preferimos", "preferís", "prefieren"],
         "imperfect": "reg",
         "preterite": ["preferí", "preferiste", "prefirió", "preferimos", "preferisteis", "prefirieron"],
@@ -674,6 +722,7 @@
     {
         "word": "probar",
         "meaning": "to try or prove",
+        "reflexive": "no",
         "present":["pruebo", "pruebas", "prueba", "probamos", "probáis", "prueban"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -682,6 +731,7 @@
     {
         "word": "querer",
         "meaning": "to want",
+        "reflexive": "no",
         "present":["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
         "imperfect": "reg",
         "preterite": ["quise", "quisiste", "quiso", "quisimos", "quisisteis", "quisieron"],
@@ -690,6 +740,7 @@
     {
         "word": "realizar",
         "meaning": "to realise",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": ["realicé", "realizaste", "realizó", "realizamos", "realizasteis", "realizaron"],
@@ -698,6 +749,7 @@
     {
         "word": "recomendar",
         "meaning": "to recommend",
+        "reflexive": "no",
         "present":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -706,6 +758,7 @@
     {
         "word": "recordar",
         "meaning": "to remember",
+        "reflexive": "no",
         "present":["recuerdo", "recuerdas", "recuerda", "recordamos", "recordáis", "recuerdan"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -714,6 +767,7 @@
     {
         "word": "remover",
         "meaning": "to stir",
+        "reflexive": "no",
         "present":["remuevo", "remueves", "remueve", "removemos", "removéis", "remueven"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -722,6 +776,7 @@
     {
         "word": "repasar",
         "meaning": "to review",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -730,6 +785,7 @@
     {
         "word": "responder",
         "meaning": "to respond",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -738,6 +794,7 @@
     {
         "word": "saber",
         "meaning": "to know",
+        "reflexive": "no",
         "present":["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"],
         "imperfect": "reg",
         "preterite": ["supe", "supiste", "supo", "supimos", "supisteis", "supieron"],
@@ -746,6 +803,7 @@
     {
         "word": "salir",
         "meaning": "to go out",
+        "reflexive": "no",
         "present": ["salgo", "sales", "sale", "salimos", "salís", "salen"],
         "imperfect": "reg",
         "preterite": "reg",
@@ -754,6 +812,7 @@
     {
         "word": "ser",
         "meaning": "to be",
+        "reflexive": "no",
         "present":["soy", "eres", "es", "somos", "sois", "son"],
         "imperfect": ["era", "eras", "era", "éramos", "erais", "eran"],
         "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
@@ -762,6 +821,7 @@
     {
         "word": "sufrir",
         "meaning": "to suffer",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -770,6 +830,7 @@
     {
         "word": "tener",
         "meaning": "to have",
+        "reflexive": "no",
         "present":["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
         "imperfect": ["tenía", "tenías", "tenía", "teníamos", "teníais", "tenían"],
         "preterite": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"],
@@ -778,6 +839,7 @@
     {
         "word": "terminar",
         "meaning": "to finish",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -786,6 +848,7 @@
     {
         "word": "tocar",
         "meaning": "to touch",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": ["toqué", "tocaste", "tocó", "tocamos", "tocasteis", "tocaron"],
@@ -794,6 +857,7 @@
     {
         "word": "tomar",
         "meaning": "to take",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -802,6 +866,7 @@
     {
         "word": "trabajar",
         "meaning": "to work",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -810,6 +875,7 @@
     {
         "word": "traer",
         "meaning": "to bring",
+        "reflexive": "no",
         "present": ["traigo", "traes", "trae", "traemos", "traéis", "traen"],
         "imperfect": "reg",
         "preterite": ["traje", "trajiste", "trajo", "trajimos", "trajisteis", "trajeron"],
@@ -818,6 +884,7 @@
     {
         "word": "usar",
         "meaning": "to use",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -826,6 +893,7 @@
     {
         "word": "vender",
         "meaning": "to sell",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -834,6 +902,7 @@
     {
         "word": "ver",
         "meaning": "to see or watch",
+        "reflexive": "no",
         "present":["veo", "ves", "ve", "vemos", "veis", "ven"],
         "imperfect": ["veía", "veías", "veía", "veíamos", "veíais", "veían"],
         "preterite": ["vi", "viste", "vio", "vimos", "visteis", "vieron"],
@@ -842,6 +911,7 @@
     {
         "word": "viajar",
         "meaning": "to travel",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -850,6 +920,7 @@
     {
         "word": "vivir",
         "meaning": "to live",
+        "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
         "preterite": "reg",
@@ -858,6 +929,7 @@
     {
         "word": "volver",
         "meaning": "to return",
+        "reflexive": "no",
         "present": ["vuelvo", "vuelves", "vuelve", "volvemos", "volvéis", "vuelven"],
         "imperfect": "reg",
         "preterite": "reg",
