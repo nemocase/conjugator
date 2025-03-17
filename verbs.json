@@ -2,471 +2,865 @@
     {
         "word": "abrir",
         "meaning": "to open",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "abierto"
+    },
+    {
+        "word": "acompañar",
+        "meaning": "to accompany",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "acompañado"
+    },
+    {
+        "word": "acordar",
+        "meaning": "to agree",
+        "reflexive": "no",
+        "present": ["acuerdo", "acuerdas", "acuerda", "acordamas", "acordáis", "acuerdan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "acordado"
     },
     {
         "word": "amar",
         "meaning": "to love",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "amado"
+    },
+    {
+        "word": "apagar",
+        "meaning": "to turn off",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["apagué", "apagaste", "apagó", "apagamos", "apagasteis", "apagaron"],
+        "participle": "apagado"
     },
     {
         "word": "aprender",
         "meaning": "to learn",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "aprendido"
     },
     {
         "word": "avanzar",
         "meaning": "to advance or progress",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["avancé", "avanzaste", "avanzó", "avanzamos", "avanzasteis", "avanzaron"],
+        "participle": "avanzado"
     },
     {
         "word": "ayudar",
         "meaning": "to help",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "ayudado"
     },
     {
         "word": "bailar",
         "meaning": "to dance",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "bailado"
     },
     {
         "word": "beber",
         "meaning": "to drink",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "bebido"
     },
     {
         "word": "besar",
         "meaning": "to kiss",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "besando"
     },
     {
         "word": "buscar",
         "meaning": "to look for",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["busqué", "buscaste", "buscó", "buscamos", "buscasteis", "buscaron"],
+        "participle": "buscado"
     },
     {
         "word": "caminar",
         "meaning": "to walk",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "caminado"
     },
     {
         "word": "cantar",
         "meaning": "to sing",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cantado"
     },
     {
         "word": "cenar",
         "meaning": "to dine",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "preterite": "reg",
+        "participle": "cenado"
     },
     {
         "word": "cerrar",
         "meaning": "to close",
-        "con":["cierro", "cerras", "cerra", "cerramos", "cerráis", "cerran"]
+        "reflexive": "no",
+        "present":["cierro", "cerras", "cerra", "cerramos", "cerráis", "cerran"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cerrado"
     },
     {
         "word": "cocinar",
         "meaning": "to cook",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cocinado"
     },
     {
         "word": "comenzar",
         "meaning": "to begin",
-        "con": ["comienzo", "comienzas", "comienza", "comenzamos", "comenzáis", "comienzan"]
+        "reflexive": "no",
+        "present": ["comienzo", "comienzas", "comienza", "comenzamos", "comenzáis", "comienzan"],
+        "imperfect": "reg",
+        "preterite": ["comencé", "comenzaste", "comenzó", "comenzamos", "comenzasteis", "comenzaron"],
+        "participle": "comenzado"
     },
     {
         "word": "comer",
         "meaning": "to eat",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "comido"
     },
     {
         "word": "cometer",
         "meaning": "to commit",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cometido"
     },
     {
         "word": "comprar",
         "meaning": "to buy",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "comprado"
     },
     {
         "word": "conducir",
         "meaning": "to drive",
-        "con":["conduzco", "conduces", "conduce", "conducimos", "conducís", "conducen"]
+        "reflexive": "no",
+        "present":["conduzco", "conduces", "conduce", "conducimos", "conducís", "conducen"],
+        "imperfect": "reg",
+        "preterite": ["conduje", "condujiste", "condujo", "condujimos", "condujisteis", "condujeron"],
+        "participle": "conducido"
     },
     {
         "word": "conseguir",
         "meaning": "to achieve or obtain",
-        "con":["consigo", "consigues", "consigue", "conseguimos", "conseguís", "consiguen"]
+        "reflexive": "no",
+        "present":["consigo", "consigues", "consigue", "conseguimos", "conseguís", "consiguen"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "conseguido"
     },
     {
         "word": "correr",
         "meaning": "to run",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "corrido"
     },
     {
         "word": "cortar",
         "meaning": "to cut",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cortado"
     },
     {
         "word": "creer",
         "meaning": "to believe",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["creí", "creiste", "creyó", "creimos", "creisteis", "creyeron"],
+        "participle": "creído"
+    },
+    {
+        "word": "cuidar",
+        "meaning": "to care for",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "cuidado"
     },
     {
         "word": "dar",
         "meaning": "to give",
-        "con":["doy", "das", "da", "damos", "dais", "dan"]
+        "reflexive": "no",
+        "present":["doy", "das", "da", "damos", "dais", "dan"],
+        "imperfect": "reg",
+        "preterite": ["di", "diste", "dio", "dimos", "disteis", "dieron"],
+        "participle": "dado"
+    },
+    {
+        "word": "deber",
+        "meaning": "must or should",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "debido"
     },
     {
         "word": "desear",
         "meaning": "to desire or wish",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "deseado"
     },
     {
         "word": "dibujar",
         "meaning": "to draw",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "dibujado"
     },
     {
         "word": "disfrutar",
         "meaning": "to enjoy",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "disfrutado"
     },
     {
         "word": "dormir",
         "meaning": "to sleep",
-        "con": ["duermo", "duermes", "duerme", "dormimos", "dormís", "duermen"]
+        "reflexive": "no",
+        "present": ["duermo", "duermes", "duerme", "dormimos", "dormís", "duermen"],
+        "imperfect": "reg",
+        "preterite": ["dormí", "dormiste", "durmió", "dormimos", "dormisteis", "durmieron"],
+        "participle": "dormido"
     },
     {
         "word": "echar",
         "meaning": "to throw",
-        "con": "reg"
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "echado"
+    },
+    {
+        "word": "elegir",
+        "meaning": "to choose",
+        "present": ["elijo", "eliges", "elige", "elegimos", "elegís", "eligen"],
+        "imperfect": "reg",
+        "preterite": ["elegí", "elegiste", "eligió", "elegimos", "elegisteis", "eligieron"],
+        "participle": "elegido"
     },
     {
         "word": "empezar",
         "meaning": "to start",
-        "con": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"]
+        "reflexive": "no",
+        "present": ["empiezo", "empiezas", "empieza", "empezamos", "empezáis", "empiezan"],
+        "imperfect": "reg",
+        "preterite": ["empecé", "empezaste", "empezó", "empezamos", "empezasteis", "empazaron"],
+        "participle": "empezado"
     },
     {
         "word": "encontrar",
         "meaning": "to find",
-        "con":["encuentro", "encuentras", "encuentra", "encontramos", "encontráis", "encuentran"]
-    },
-    {
-        "word": "esconder",
-        "meaning": "to hide",
-        "con": "reg"
+        "present":["encuentro", "encuentras", "encuentra", "encontramos", "encontráis", "encuentran"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "encontrado"
     },
     {
         "word": "enseñar",
         "meaning": "to teach",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "enseñado"
     },
     {
         "word": "entender",
         "meaning": "to understand",
-        "con":["entiendo", "entiendes", "entienda", "entendemos", "entendéis", "entienden"]
+        "present":["entiendo", "entiendes", "entienda", "entendemos", "entendéis", "entienden"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "entendido"
     },
     {
         "word": "entrar",
         "meaning": "to enter",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "entrado"
+    },
+    {
+        "word": "esconder",
+        "meaning": "to hide",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "escondido"
     },
     {
         "word": "escribir",
         "meaning": "to write",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "escribito"
     },
     {
         "word": "escuchar",
         "meaning": "to listen",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "escuchado"
     },
     {
         "word": "esperar",
         "meaning": "to wait or hope",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "esperado"
     },
     {
         "word": "fumar",
         "meaning": "to smoke",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "fumado"
     },
     {
         "word": "ganar",
         "meaning": "to gain",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "ganado"
     },
     {
         "word": "grabar",
         "meaning": "to record",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "grabado"
     },
     {
         "word": "gritar",
         "meaning": "to shout",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "gritado"
     },
     {
         "word": "hablar",
         "meaning": "to speak",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "hablado"
     },
     {
         "word": "hacer",
         "meaning": "to make or do",
-        "con":["hago", "haces", "hace", "hacemos", "hacéis", "hacen"]
+        "present":["hago", "haces", "hace", "hacemos", "hacéis", "hacen"],
+        "imperfect": "reg",
+        "preterite": ["hice", "hiciste", "hizo", "hicimos", "hicisteis", "hicieron"],
+        "participle": "hecho"
     },
     {
         "word": "invitar",
         "meaning": "to invite",
-        "con":["invito", "invitas", "invita", "invitamos", "invitáis", "invitan"]
+        "present":["invito", "invitas", "invita", "invitamos", "invitáis", "invitan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "invitado"
     },
     {
         "word": "ir",
         "meaning": "to go",
-        "con":["voy", "vas", "va", "vamos", "vais", "van"]
+        "reflexive": "no",
+        "present":["voy", "vas", "va", "vamos", "vais", "van"],
+        "imperfect": ["iba", "ibas", "iba", "íbamos", "ibáis", "iban"],
+        "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+        "participle": "ido"
     },
     {
         "word": "jugar",
         "meaning": "to play",
-        "con":["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"]
+        "present":["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"],
+        "imperfect": "reg",
+        "preterite": ["jugué", "jugaste", "jugó", "jugamos", "jugasteis", "jugaron"],
+        "participle": "jugado"
     },
     {
         "word": "leer",
         "meaning": "to read",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["leí", "leiste", "leyó", "leímos", "leisteis", "leyeron"],
+        "participle": "leído"
     },
     {
         "word": "limpiar",
         "meaning": "to clean",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "limpiado"
     },
     {
         "word": "llamar",
         "meaning": "to call",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "llamado"
     },
     {
         "word": "llegar",
         "meaning": "to arrive",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["llegué", "llegaste", "llegó", "llegamos", "llegasteis", "llegaron"],
+        "participle": "llegado"
     },
     {
         "word": "llevar",
         "meaning": "to carry",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "llevado"
     },
     {
         "word": "llorar",
         "meaning": "to weep",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "llorado"
     },
     {
         "word": "mirar",
         "meaning": "to view",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "mirado"
     },
     {
         "word": "montar",
         "meaning": "to ride",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "montado"
     },
     {
         "word": "mostrar",
         "meaning": "to show",
-        "con":["muestro", "muestras", "muestra", "mostramos", "mostráis", "muestran"]
+        "present":["muestro", "muestras", "muestra", "mostramos", "mostráis", "muestran"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "mostrado"
     },
     {
         "word": "nadar",
         "meaning": "to swim",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "nadado"
     },
     {
         "word": "necesitar",
         "meaning": "to need",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "necesitado"
     },
     {
         "word": "odiar",
         "meaning": "to hate",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "odiado"
     },
     {
         "word": "oír",
         "meaning": "to hear",
-        "con":["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
+        "present":["oigo", "oyes", "oye", "oímos", "oís", "oyen"],
+        "imperfect": "reg",
+        "preterite": ["oí", "oíste", "oyó", "oímos", "oísteis", "oyeron"],
+        "participle": "oído"
     },
     {
         "word": "olvidar",
         "meaning": "to forget",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "olvidado"
     },
     {
-        "word": "paracer",
+        "word": "parecer",
         "meaning": "to seem",
-        "con":["parezco", "pareces", "parece", "parecemos", "parecéis", "parecen"]
+        "present":["parezco", "pareces", "parece", "parecemos", "parecéis", "parecen"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "parecido"
     },
     {
         "word": "partir",
         "meaning": "to divide",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "partido"
     },
     {
         "word": "pedir",
         "meaning": "to ask",
-        "con":["pido", "pides", "pide", "pedimos", "pedís", "piden"]
+        "present":["pido", "pides", "pide", "pedimos", "pedís", "piden"],
+        "imperfect": "reg",
+        "preterite": ["pedí", "pediste", "pidió", "pedimos", "pedisteis", "pidieron"],
+        "participle": "pedido"
     },
     {
         "word": "pelear",
         "meaning": "to argue",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "peleado"
     },
     {
         "word": "pensar",
         "meaning": "to think",
-        "con": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"]
+        "present": ["pienso", "piensas", "piensa", "pensamos", "pensáis", "piensan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "pensado"
     },
     {
         "word": "perder",
         "meaning": "to lose",
-        "con":["pierdo", "pierdes", "pierde", "perdemos", "perdéis", "pierden"]
+        "present":["pierdo", "pierdes", "pierde", "perdemos", "perdéis", "pierden"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "perdido"
     },
     {
         "word": "perseguir",
         "meaning": "to pursue or persecute",
-        "con":["persigo", "persegues", "persigue", "persiguimos", "persiguís", "persiguen"]
+        "present":["persigo", "persegues", "persigue", "persiguimos", "persiguís", "persiguen"],
+        "imperfect": "reg",
+        "preterite": ["perseguí", "perseguiste", "persiguió", "perseguimos", "perseguisteis", "persiguieron"],
+        "participle": "perseguido"
+    },
+    {
+        "word": "pesar",
+        "meaning": "to weigh",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "pesado"
     },
     {
         "word": "pintar",
         "meaning": "to paint",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "pintado"
     },
     {
         "word": "poder",
         "meaning": "can or able",
-        "con":["puedo", "puedes", "puede", "podemos", "podéis", "pueden"]
+        "present":["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
+        "imperfect": "reg",
+        "preterite": ["pude", "pudiste", "pudo", "pudimos", "pudisteis", "pudieron"],
+        "participle": "podido"
     },
     {
         "word": "poner",
         "meaning": "to put",
-        "con":["pongo", "pones", "pone", "ponemos", "ponéis", "ponen"]
+        "present":["pongo", "pones", "pone", "ponemos", "ponéis", "ponen"],
+        "imperfect": "reg",
+        "preterite": ["puse", "pusiste", "puso", "pusimos", "pusisteis", "pusieron"],
+        "participle": "puesto"
     },
     {
         "word": "practicar",
         "meaning": "to practice",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["practiqué", "practicaste", "practicó", "practicamos", "practicasteis", "practicaron"],
+        "participle": "practicado"
     },
     {
         "word": "preferir",
         "meaning": "to prefer",
-        "con":["prefiero", "prefieres", "prefiere", "preferimos", "preferís", "prefieren"]
+        "present":["prefiero", "prefieres", "prefiere", "preferimos", "preferís", "prefieren"],
+        "imperfect": "reg",
+        "preterite": ["preferí", "preferiste", "prefirió", "preferimos", "preferisteis", "prefirieron"],
+        "participle": "preferido"
     },
     {
         "word": "probar",
         "meaning": "to try or prove",
-        "con":["pruebo", "pruebas", "prueba", "probamos", "probáis", "prueban"]
+        "present":["pruebo", "pruebas", "prueba", "probamos", "probáis", "prueban"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "probado"
     },
     {
         "word": "querer",
         "meaning": "to want",
-        "con":["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"]
+        "present":["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
+        "imperfect": "reg",
+        "preterite": ["quise", "quisiste", "quiso", "quisimos", "quisisteis", "quisieron"],
+        "participle": "querido"
+    },
+    {
+        "word": "realizar",
+        "meaning": "to realise",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["realicé", "realizaste", "realizó", "realizamos", "realizasteis", "realizaron"],
+        "participle": "realizado"
     },
     {
         "word": "recomendar",
         "meaning": "to recommend",
-        "con":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"]
+        "present":["recomiendo", "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "recomendado"
     },
     {
         "word": "recordar",
         "meaning": "to remember",
-        "con":["recuerdo", "recuerdas", "recuerda", "recordamos", "recordáis", "recuerdan"]
+        "present":["recuerdo", "recuerdas", "recuerda", "recordamos", "recordáis", "recuerdan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "recordado"
+    },
+    {
+        "word": "remover",
+        "meaning": "to stir",
+        "present":["remuevo", "remueves", "remueve", "removemos", "removéis", "remueven"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "removido"
     },
     {
         "word": "repasar",
         "meaning": "to review",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "repasado"
     },
     {
         "word": "responder",
         "meaning": "to respond",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "respondado"
     },
     {
         "word": "saber",
         "meaning": "to know",
-        "con":["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"]
+        "present":["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"],
+        "imperfect": "reg",
+        "preterite": ["supe", "supiste", "supo", "supimos", "supisteis", "supieron"],
+        "participle": "sabido"
     },
     {
         "word": "salir",
         "meaning": "to go out",
-        "con": ["salgo", "sales", "sale", "salimos", "salís", "salen"]
+        "present": ["salgo", "sales", "sale", "salimos", "salís", "salen"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "salido"
     },
     {
         "word": "ser",
         "meaning": "to be",
-        "con":["soy", "eres", "es", "somos", "sois", "son"]
+        "present":["soy", "eres", "es", "somos", "sois", "son"],
+        "imperfect": ["era", "eras", "era", "éramos", "erais", "eran"],
+        "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+        "participle": "sido"
     },
     {
         "word": "sufrir",
         "meaning": "to suffer",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "sufrido"
     },
     {
         "word": "tener",
         "meaning": "to have",
-        "con":["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"]
+        "present":["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
+        "imperfect": ["tenía", "tenías", "tenía", "teníamos", "teníais", "tenían"],
+        "preterite": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"],
+        "participle": "tenido"
     },
     {
         "word": "terminar",
         "meaning": "to finish",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "terminado"
     },
     {
         "word": "tocar",
         "meaning": "to touch",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["toqué", "tocaste", "tocó", "tocamos", "tocasteis", "tocaron"],
+        "participle": "tocado"
     },
     {
         "word": "tomar",
         "meaning": "to take",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "tomado"
     },
     {
         "word": "trabajar",
         "meaning": "to work",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "trabajado"
+    },
+    {
+        "word": "traer",
+        "meaning": "to bring",
+        "present": ["traigo", "traes", "trae", "traemos", "traéis", "traen"],
+        "imperfect": "reg",
+        "preterite": ["traje", "trajiste", "trajo", "trajimos", "trajisteis", "trajeron"],
+        "participle": "traído"
     },
     {
         "word": "usar",
         "meaning": "to use",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "usado"
     },
     {
         "word": "vender",
         "meaning": "to sell",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "vendido"
     },
     {
         "word": "ver",
         "meaning": "to see or watch",
-        "con":["veo", "ves", "ve", "vemos", "veis", "ven"]
+        "present":["veo", "ves", "ve", "vemos", "veis", "ven"],
+        "imperfect": ["veía", "veías", "veía", "veíamos", "veíais", "veían"],
+        "preterite": ["vi", "viste", "vio", "vimos", "visteis", "vieron"],
+        "participle": "visto"
     },
     {
         "word": "viajar",
         "meaning": "to travel",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "viajado"
     },
     {
         "word": "vivir",
         "meaning": "to live",
-        "con": "reg"
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "vivido"
     },
     {
         "word": "volver",
         "meaning": "to return",
-        "con": ["vuelvo", "vuelves", "vuelve", "volvemos", "volvéis", "vuelven"]
+        "present": ["vuelvo", "vuelves", "vuelve", "volvemos", "volvéis", "vuelven"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "vuelto"
     }
 ]
