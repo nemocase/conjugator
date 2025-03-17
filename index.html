@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugator v0.5</title>
+    <title>Conjugator v0.6</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,7 +24,8 @@
     </div>
 
     <div id="search" style="display: none;">
-        <p>Enter any Spanish verb in the <span class="tooltip">infinitive,</span><span class="tip1">Verbs ending in -ar, -er, or -ir.</span> or search by meaning.</p>
+        <p>Lo siento, el buscador no funciona en este momento.</p>
+        <p>Sorry, the search engine isn't working right now!</p>
         <p><input type="text" id="enterVerb"></p>
         <p id="searchLine"><button id="findButton" onclick="buttonDown('findButton')">Search</button></p>
     </div>
@@ -64,6 +65,15 @@
                 <div class="output" id="lowR" style="color: blanchedalmond;"></div>
             </div>
         </div>
+    </div>
+
+    <div class="buttonLine" id="tenseLine" style="display: none;">
+        <button id="tenseParticiple" onclick="tenseSwitch('Participle')">Participle</button>
+        <button id="tensePresent" onclick="tenseSwitch('Present')">Present</button>
+        <button id="tensePreterite" onclick="tenseSwitch('Preterite')">Preterite</button>
+        <button id="tenseImperfect" onclick="tenseSwitch('Imperfect')">Imperfect</button>
+    </div>
+
     </div>
 
     <script src="script.js"></script>
