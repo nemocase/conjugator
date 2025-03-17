@@ -7,9 +7,7 @@ document.getElementById('switchButton').addEventListener('click', modeSwitch) //
 document.getElementById('findButton').addEventListener('click', findVerb) // Search button for Find Mode
 
 // Verb list
-const esp = 'verb6.json'
-// verb6 = actual list
-// verb 6a = test list
+const esp = 'https://raw.githubusercontent.com/nemocase/conjugator/refs/heads/main/verbs.json''
 let verbList = []; // List of all verbs imported from JSON
 let previous = []; // List of previously 'drawn' verbs (max 5)
 let verb = []; // The active verb
