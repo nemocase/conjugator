@@ -233,6 +233,8 @@ function regPresent(verb) {
                 ];
                 return con;
         }
+    } else {
+        return con;
     }
 }
 
@@ -275,6 +277,8 @@ function regImperfect(verb) {
                 ];
                 return con;
         }
+    } else {
+        return con;
     }
 }
 
@@ -317,33 +321,10 @@ function regPreterite(verb) {
                 ];
                 return con;
         }
+    } else {
+        return con;
     }
 }
-
-// Conjugate regular participles
-//! FINAL VERSION
-/* function conjugateParticiple(infinitive) {
-    const participle = verb[4];
-    return participle;
-} */
-
-//! STOPGAP VERSION
-/* function conjugateParticiple(infinitive) {
-    const ending = infinitive.substring(infinitive.length - 2);
-    const root = infinitive.substring(0, infinitive.length - 2);
-    let participle = '';
-    switch (ending) {
-        case 'ar':
-            participle = root + 'ado';
-            return participle;
-        case 'er':
-            participle = root + 'ido';
-            return participle;
-        case 'ir':
-            participle = root + 'ido';
-            return participle;
-    }
-} */
 
 // SEARCH FUNCTIONS
 // Search the verb database
