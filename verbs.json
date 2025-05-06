@@ -126,6 +126,15 @@
         "participle": "cantado"
     },
     {
+        "word": "casar",
+        "meaning": "to marry",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "casado"
+    },
+    {
         "word": "cenar",
         "meaning": "to dine",
         "reflexive": "no",
@@ -675,6 +684,15 @@
         "participle": "pesado"
     },
     {
+        "word": "pescar",
+        "meaning": "to fish",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["pesqué", "pescaste", "pescó", "pescamos", "pescasteis", "pescaron"],
+        "participle": "pescado"
+    },
+    {
         "word": "pintar",
         "meaning": "to paint",
         "reflexive": "no",
@@ -682,6 +700,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "pintado"
+    },
+    {
+        "word": "planear",
+        "meaning": "to plan",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "planeado"
     },
     {
         "word": "poder",
@@ -765,6 +792,15 @@
         "participle": "recordado"
     },
     {
+        "word": "regresar",
+        "meaning": "to return",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "regresado"
+    },
+    {
         "word": "remover",
         "meaning": "to stir",
         "reflexive": "no",
@@ -772,6 +808,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "removido"
+    },
+    {
+        "word": "reparar",
+        "meaning": "to repair",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "reparado"
     },
     {
         "word": "repasar",
@@ -783,6 +828,15 @@
         "participle": "repasado"
     },
     {
+        "word": "reservar",
+        "meaning": "to reserve",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "reservado"
+    },
+    {
         "word": "responder",
         "meaning": "to respond",
         "reflexive": "no",
@@ -790,6 +844,24 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "respondado"
+    },
+    {
+        "word": "rezar",
+        "meaning": "to pray",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["recé", "rezaste", "rezó", "rezamos", "rezasteis", "rezaron"],
+        "participle": "rezado"
+    },
+    {
+        "word": "romper",
+        "meaning": "to break",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "roto"
     },
     {
         "word": "saber",
@@ -925,6 +997,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "vivido"
+    },
+    {
+        "word": "volar",
+        "meaning": "to fly",
+        "reflexive": "no",
+        "present": ["vuelo", "vuelas", "vuela", "volamos", "voláis", "vuelan"],
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "volado"
     },
     {
         "word": "volver",
