@@ -262,7 +262,7 @@ function regImperfect(verb) {
                     root + 'ías',
                     root + 'ía',
                     root + 'íamos',
-                    root + 'ías',
+                    root + 'íais',
                     root + 'ían'
                 ];
                 return con;
@@ -272,7 +272,7 @@ function regImperfect(verb) {
                     root + 'ías',
                     root + 'ía',
                     root + 'íamos',
-                    root + 'ías',
+                    root + 'íais',
                     root + 'ían'
                 ];
                 return con;
