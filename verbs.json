@@ -9,6 +9,15 @@
         "participle": "abierto"
     },
     {
+        "word": "acampar",
+        "meaning": "to camp",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "acampando"
+    },
+    {
         "word": "acompañar",
         "meaning": "to accompany",
         "reflexive": "no",
@@ -52,6 +61,24 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "aprendido"
+    },
+    {
+        "word": "asar",
+        "meaning": "to roast",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "asando"
+    },
+    {
+        "word": "asustar",
+        "meaning": "to scare",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "asustando"
     },
     {
         "word": "avanzar",
@@ -214,6 +241,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "conseguido"
+    },
+    {
+        "word": "conversar",
+        "meaning": "to converse",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "conversando"
     },
     {
         "word": "correr",
@@ -540,6 +576,15 @@
         "participle": "llorado"
     },
     {
+        "word": "mentir",
+        "meaning": "to lie",
+        "reflexive": "no",
+        "present": ["miento", "mientes", "miente", "mentimos", "mentís", "mienten"],
+        "imperfect": "reg",
+        "preterite": ["mentí", "mentiste", "mintió", "mentimos", "mentisteis", "mintieron"],
+        "participle": "mintiendo"
+    },
+    {
         "word": "mirar",
         "meaning": "to view",
         "reflexive": "no",
@@ -574,6 +619,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "nadado"
+    },
+    {
+        "word": "navegar",
+        "meaning": "to sail",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["navegué", "navegaste", "navegó", "navegamos", "navegamos", "navegaron"],
+        "participle": "navegando"
     },
     {
         "word": "necesitar",
@@ -747,6 +801,15 @@
         "participle": "preferido"
     },
     {
+        "word": "prestar",
+        "meaning": "to lend",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "prestando"
+    },
+    {
         "word": "probar",
         "meaning": "to try or prove",
         "reflexive": "no",
@@ -855,6 +918,15 @@
         "participle": "rezado"
     },
     {
+        "word": "robar",
+        "meaning": "to steal",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "robando"
+    },
+    {
         "word": "romper",
         "meaning": "to break",
         "reflexive": "no",
@@ -862,6 +934,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "roto"
+    },
+    {
+        "word": "roncar",
+        "meaning": "to snore",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["ronqué", "roncaste", "roncó", "roncamos", "roncasteis", "roncaron"],
+        "participle": "roncando"
     },
     {
         "word": "saber",
@@ -880,6 +961,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "salido"
+    },
+    {
+        "word": "seguir",
+        "meaning": "to follow",
+        "reflexive": "no",
+        "present": ["sigo", "sigues", "sigue", "seguimos", "seguís", "siguen"],
+        "imperfect": "reg",
+        "preterite": ["seguí", 'seguiste", "siguió", "seguimos", "seguisteis", "siguieron"],
+        "participle": "siguiendo"
     },
     {
         "word": "ser",
