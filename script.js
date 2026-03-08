@@ -1,5 +1,5 @@
-//! VERSION: 0.6
-//* 17/03/25
+//! VERSION: 0.6a
+// 08/03/26
 
 // BUTTONS
 document.getElementById('ranButton').addEventListener('click', conjugateRandom) // Random word
@@ -7,7 +7,9 @@ document.getElementById('switchButton').addEventListener('click', modeSwitch) //
 document.getElementById('findButton').addEventListener('click', findVerb) // Search button for Find Mode
 
 // Verb list
-const esp = 'https://raw.githubusercontent.com/nemocase/conjugator/refs/heads/main/verbs.json'
+const esp = 'verb6.json'
+// verb6 = actual list
+// verb 6a = test list
 let verbList = []; // List of all verbs imported from JSON
 let previous = []; // List of previously 'drawn' verbs (max 5)
 let verb = []; // The active verb
@@ -262,7 +264,7 @@ function regImperfect(verb) {
                     root + 'ías',
                     root + 'ía',
                     root + 'íamos',
-                    root + 'íais',
+                    root + 'ías',
                     root + 'ían'
                 ];
                 return con;
@@ -272,7 +274,7 @@ function regImperfect(verb) {
                     root + 'ías',
                     root + 'ía',
                     root + 'íamos',
-                    root + 'íais',
+                    root + 'ías',
                     root + 'ían'
                 ];
                 return con;
@@ -328,30 +330,40 @@ function regPreterite(verb) {
 
 // SEARCH FUNCTIONS
 // Search the verb database
+
 function findVerb() {
     hideTable();
-    const field = verbList;
-    const query = document.getElementById('enterVerb').value;
-/*     if (query.match('to') < 1) {
-        query = `to ${query}`;
-    } */
+    const list = verbList;
+    let query = '';
+    let item = '';
+    let result = 0;
+    let num = 0;
+    query = document.getElementById('enterVerb').value;
     let message = '';
-    let result = ['word', 'meaning', 'con'];
-    field.forEach(word => {
-        if (word[0] == query || word[1] == query || word[1] == `to ${query}`) {
-            result[0] = word[0];
-            result[1] = word[1];
-            result[2] = word[2];
+    while (result == 0) {
+        item = list[num];
+        check = item[0];
+        if (query.toLowerCase() == check) {
+            result = item;
+        } else {
+            result = 0;
+            num = num + 1;
+        };
+        if (num >= verbList.length) {
+            message = 'No result found. Make sure the word is spelled correctly and ends in <b>-er</b>, <b>-ar</b>, or <b>-ir.</b>'
+            document.getElementById('sub').innerHTML = message;
+            result = 1;
+            return result;
         }
-    });
-    if (result[0] == 'word') {
-        message = 'No result found. Make sure the word is spelled correctly and ends in <b>-er</b>, <b>-ar</b>, or <b>-ir.</b>'
-        document.getElementById('sub').innerHTML = message;
-    } else if (result[2] == 'reg') {
-        result[2] = regPresent(result);
-        display(result);
-    } else {
-        display(result);
-    }
+    };
     console.log(result);
+    verb = result; // Set 'result' as the active verb
+    if (verb[3] == "reg") { // Check if verb is regular
+        verb[3] = regPresent(verb); // If regular, conjugate...
+        hideAll();
+        display(verb); // ...and display.
+    } else {
+        hideAll();
+        display(verb); // If irregular, display without conjugating
+    }
 }
