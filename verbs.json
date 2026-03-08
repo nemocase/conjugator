@@ -8,6 +8,15 @@
         "preterite": "reg",
         "participle": "abierto"
     },
+	{
+        "word": "aburrir",
+        "meaning": "to bore or tire",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "aburrido"
+    },
     {
         "word": "acampar",
         "meaning": "to camp",
@@ -35,6 +44,33 @@
         "preterite": "reg",
         "participle": "acordado"
     },
+	{
+        "word": "adelantar",
+        "meaning": "to overtake or bring forward",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "adelantado"
+    },
+	{
+        "word": "adivinar",
+        "meaning": "to guess",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "adivinado"
+    },
+	{
+        "word": "alejar",
+        "meaning": "to move away or keep away from something",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "alejado"
+    },
     {
         "word": "amar",
         "meaning": "to love",
@@ -43,6 +79,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "amado"
+    },
+	{
+        "word": "amenazar",
+        "meaning": "to threaten",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["amenacé", "amenazaste", "amenazó", "amenazamos", "amenazasteis", "amenazaron"],
+        "participle": "amenazado"
     },
     {
         "word": "apagar",
@@ -53,6 +98,15 @@
         "preterite": ["apagué", "apagaste", "apagó", "apagamos", "apagasteis", "apagaron"],
         "participle": "apagado"
     },
+	{
+        "word": "apenar",
+        "meaning": "to grieve or pain someone",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "apenado"
+    },
     {
         "word": "aprender",
         "meaning": "to learn",
@@ -61,6 +115,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "aprendido"
+    },
+	{
+        "word": "arrastrar",
+        "meaning": "to drag or tow",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "arrestrado"
     },
     {
         "word": "asar",
@@ -71,6 +134,24 @@
         "preterite": "reg",
         "participle": "asando"
     },
+	{
+        "word": "asegurar",
+        "meaning": "to assure",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "asegurado"
+    },
+	{
+        "word": "asomar",
+        "meaning": "to peek out from behind something",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "asomado"
+    },
     {
         "word": "asustar",
         "meaning": "to scare",
@@ -80,6 +161,15 @@
         "preterite": "reg",
         "participle": "asustando"
     },
+	{
+        "word": "aumentar",
+        "meaning": "to augment",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "aumentado"
+    },
     {
         "word": "avanzar",
         "meaning": "to advance or progress",
@@ -88,6 +178,15 @@
         "imperfect": "reg",
         "preterite": ["avancé", "avanzaste", "avanzó", "avanzamos", "avanzasteis", "avanzaron"],
         "participle": "avanzado"
+    },
+	{
+        "word": "avisar",
+        "meaning": "to warn or notify",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "avisado"
     },
     {
         "word": "ayudar",
@@ -694,7 +793,7 @@
     },
     {
         "word": "pelear",
-        "meaning": "to argue",
+        "meaning": "to fight or argue",
         "reflexive": "no",
         "present": "reg",
         "imperfect": "reg",
@@ -979,6 +1078,15 @@
         "imperfect": ["era", "eras", "era", "éramos", "erais", "eran"],
         "preterite": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
         "participle": "sido"
+    },
+	{
+        "word": "suceder",
+        "meaning": "to happen",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "sucedido"
     },
     {
         "word": "sufrir",
