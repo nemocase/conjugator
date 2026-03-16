@@ -206,6 +206,33 @@
         "preterite": "reg",
         "participle": "bailado"
     },
+	{
+        "word": "bajar",
+        "meaning": "to lower or descend",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "bajado"
+    },
+	{
+        "word": "balar",
+        "meaning": "to bleat",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "balado"
+    },
+	{
+        "word": "batir",
+        "meaning": "to beat",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "batido"
+    },
     {
         "word": "beber",
         "meaning": "to drink",
@@ -214,6 +241,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "bebido"
+    },
+	{
+        "word": "berrear",
+        "meaning": "to roar or howl",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "berreado"
     },
     {
         "word": "besar",
@@ -278,6 +314,15 @@
         "preterite": "reg",
         "participle": "cerrado"
     },
+	{
+        "word": "chocar",
+        "meaning": "to hit or crash into",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["choqué", "chocaste", "chocó", "chocamos", "chocasteis", "chocaron"],
+        "participle": "chocado"
+    },
     {
         "word": "cocinar",
         "meaning": "to cook",
@@ -340,6 +385,24 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "conseguido"
+    },
+	{
+        "word": "construir",
+        "meaning": "to build",
+        "reflexive": "no",
+        "present": ["construyo", "construyes", "construye", "construimos", "construís", "construyen"],
+        "imperfect": "reg",
+        "preterite": ["construí", "construiste", "construyó", "construímos", "construisteis", "construyeron"],
+        "participle": "construido"
+    },
+	{
+        "word": "contestar",
+        "meaning": "to answer",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "contestado"
     },
     {
         "word": "conversar",
@@ -413,6 +476,15 @@
         "preterite": "reg",
         "participle": "deseado"
     },
+	{
+        "word": "despedir",
+        "meaning": "to dismiss or say goodbye to",
+        "reflexive": "no",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "despedido"
+    },
     {
         "word": "dibujar",
         "meaning": "to draw",
@@ -421,6 +493,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "dibujado"
+    },
+	{
+        "word": "discutir",
+        "meaning": "to argue or discuss",
+        "reflexive": "no",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "discutido"
     },
     {
         "word": "disfrutar",
@@ -539,6 +620,15 @@
         "preterite": "reg",
         "participle": "esperado"
     },
+	{
+        "word": "firmar",
+        "meaning": "to sign",
+        "reflexive": "no",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "firmado"
+    },
     {
         "word": "fumar",
         "meaning": "to smoke",
@@ -620,6 +710,24 @@
         "preterite": ["jugué", "jugaste", "jugó", "jugamos", "jugasteis", "jugaron"],
         "participle": "jugado"
     },
+	{
+        "word": "juzgar",
+        "meaning": "to judge",
+        "reflexive": "no",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": ["juzhué", "juzgaste", "juzgó", "juzgamos", "juzgasteis", "juzgaron"],
+        "participle": "juzgado"
+    },
+	{
+        "word": "lanzar",
+        "meaning": "to throw or launch",
+        "reflexive": "no",
+        "present": "reg",
+        "imperfect": "reg",
+        "preterite": ["lancé", "lanzaste", "lanzó", "lanzamos", "lanzasteis", "lanzaron"],
+        "participle": "lanzado"
+    },
     {
         "word": "leer",
         "meaning": "to read",
@@ -673,6 +781,15 @@
         "imperfect": "reg",
         "preterite": "reg",
         "participle": "llorado"
+    },
+	{
+        "word": "luchar",
+        "meaning": "to fight",
+        "reflexive": "no",
+        "present":"reg",
+        "imperfect": "reg",
+        "preterite": "reg",
+        "participle": "luchado"
     },
     {
         "word": "mentir",
