@@ -336,11 +336,12 @@ function findVerb() {
     let item = '';
     let result = 0;
     let num = 0;
-    query = document.getElementById('enterVerb').value;
+    query = document.getElementById('enterVerb').value; // QUERY = user input
+    query = query.trim();
     let message = '';
     while (result == 0) {
         item = list[num];
-        check = item[0];
+        let check = item[0]; // CHECK = rotating verb to check against
         if (query.toLowerCase() == check) {
             result = item;
         } else {
